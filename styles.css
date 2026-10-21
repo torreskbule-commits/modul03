@@ -1,0 +1,122 @@
+/* Reset default browser styles */
+body, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+.socio {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.profile, .experience, .education {
+    margin-bottom: 28px;
+}
+
+h2 {
+    background: #e2e2e2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.job, .degree {
+    margin-bottom: 15px;
+}
+
+.job h3, .degree h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p, .degree p {
+    color: #555;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Style untuk link galeri di halaman utama */
+.gallery-link {
+    margin-top: 20px;
+}
+
+.gallery-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.gallery-link a:hover {
+    text-decoration: underline;
+}
+
+/* Style untuk halaman galeri */
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
